@@ -1,0 +1,29 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align:center;
+}
+.title{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.content{
+    margin:0 auto;
+    width:1056px;
+}
+.Table{
+    width:100%;
+}
+.Table td{
+    float:left;
+}
+.delete_leave{
+    float:right;
+}
+.del_message{
+    width:80px;
+    height:25px;
+    background-color:#338fea;
+}

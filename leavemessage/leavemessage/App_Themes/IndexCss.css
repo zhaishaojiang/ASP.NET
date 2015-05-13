@@ -1,0 +1,96 @@
+﻿body {
+    text-align:center;
+}
+#content{
+    margin:0 auto;
+    width:1056px;
+}
+#nav ul{
+    list-style:none;
+}
+#nav ul li{
+    display:inline;
+}
+.Table{
+    width:100%;
+    float:left;
+}
+.Table td{
+    float:left;
+}
+.footLink{
+    margin-right:0px;
+    list-style:none;
+    float:right;
+}
+#fold{
+    display:none;
+}
+.footLink li{
+    float:right;
+    margin-right:10px;
+}
+.footLink li a:link{
+    color:blue;
+}
+.footLink li a:visited{
+    color:blue;
+}
+.footLink li a:hover{
+    color:red;
+}
+.footLink li a:active{
+    color:red;
+}
+.leave{
+    margin-top:20px;
+    text-align:left;
+}
+.leave_title,.leave_author{
+    margin-bottom:15px;
+}
+.leave label{
+    display:inline-block;
+    width:80px;
+    height:25px;
+}
+#title,#qq{
+    height:20px;
+}
+#lvMessage{
+    resize:none;
+	width: 600px; 
+	height: 150px;
+    display:inline-block;
+	font-size: 15px; 
+	word-wrap: break-word;
+    vertical-align:text-top;
+}
+.yanzhengma{
+    margin-top:10px;
+    text-align:left;
+    line-height:50px;
+}
+#img {
+    vertical-align: text-bottom;
+}
+#yzm{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    margin:0;
+    padding:0;
+    vertical-align: text-bottom;
+}
+#im{
+    display:inline-block;
+}
+.submit_button{
+    margin-top:15px;
+    text-align:left;
+}
+.submit_button button{
+    margin-right:15px;
+    width:60px;
+    height:25px;
+}

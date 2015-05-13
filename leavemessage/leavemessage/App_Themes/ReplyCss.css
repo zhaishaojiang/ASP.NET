@@ -1,0 +1,17 @@
+﻿.content{
+    margin:0 auto;
+    width:900px;
+    padding-top:20px;
+}
+.content label{
+    display:inline-block;
+    width:80px;
+}
+.reply_author, .reply_content{
+    margin-bottom:15px;
+}
+#reply_message {
+    width:600px;
+    height:200px;
+    resize:none;
+}
