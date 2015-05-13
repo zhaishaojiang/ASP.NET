@@ -42,8 +42,9 @@
                                     <li><a href="###" id="fold" onmousedown="hide()">收起</a></li>
                                     <li><a href="Reply.aspx?MessageID=<%# Eval("ID") %>">我要回复</a></li>
                                     <li><a href="#message">我要留言</a></li>
+                                    <!--添加回复信息-->
                                     <div>
-                                        
+                                        <%=content %>
                                     </div>
                                 </td>
                             </tr>

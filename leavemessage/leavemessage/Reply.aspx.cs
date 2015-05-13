@@ -28,8 +28,10 @@ namespace leavemessage
             {	///重定向到留言页面	
                 //Response.Redirect("Index.aspx");
                 string url;
-                url = "Index.aspx?content"+GetReplyMessage();
+                url = "Index.aspx?content" + GetReplyMessage();
                 Response.Redirect(url);
+                //Session["content"] = GetReplyMessage();
+                //Server.Transfer("Index.aspx"); 
             }
         }
         protected void reset_click(object sender, EventArgs e)
@@ -49,7 +51,6 @@ namespace leavemessage
                 returnHtml.AppendFormat("<div>{0}</div>", row["Reply"]);
                 returnHtml.Append("<br />");
             }
-
             return returnHtml.ToString();
         }    
     }

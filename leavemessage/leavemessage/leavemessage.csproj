@@ -70,16 +70,13 @@
     <Content Include="App_Themes\LeaveMessageCss.css" />
     <Content Include="App_Themes\ReplyCss.css" />
     <Content Include="App_Themes\web.css" />
-    <Content Include="GenerateCheckCode.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="App_Themes\IndexJs.js" />
     <Content Include="LeaveManage.aspx" />
     <Content Include="Reply.aspx" />
-    <Content Include="Test.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="yanzhengma.aspx" />
     <Content Include="yzm.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -91,13 +88,6 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Code\Info.cs" />
-    <Compile Include="GenerateCheckCode.aspx.cs">
-      <DependentUpon>GenerateCheckCode.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GenerateCheckCode.aspx.designer.cs">
-      <DependentUpon>GenerateCheckCode.aspx</DependentUpon>
-    </Compile>
     <Compile Include="LeaveManage.aspx.cs">
       <DependentUpon>LeaveManage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -112,13 +102,6 @@
     <Compile Include="Reply.aspx.designer.cs">
       <DependentUpon>Reply.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Test.aspx.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Test.aspx.designer.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,13 +110,6 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="yanzhengma.aspx.cs">
-      <DependentUpon>yanzhengma.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="yanzhengma.aspx.designer.cs">
-      <DependentUpon>yanzhengma.aspx</DependentUpon>
-    </Compile>
     <Compile Include="yzm.aspx.cs">
       <DependentUpon>yzm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -143,7 +119,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Themes\mm\mm.skin" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

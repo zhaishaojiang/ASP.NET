@@ -16,9 +16,13 @@ namespace leavemessage
 {
     public partial class Index : System.Web.UI.Page
     {
-        string content = string.Empty;
+        protected string content = string.Empty;
+        
         protected void Page_Load(object sender, EventArgs e)
         {
+            content = Request.QueryString["content"];
+            //content = Session["content"].ToString();
+            //Session.Remove("content");
             this.BindPageData();
         }
 
